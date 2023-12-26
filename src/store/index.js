@@ -12,7 +12,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
     };
   }
 
-  return store;
+  return state;
 };
 
 const store = createStore(counterReducer);
